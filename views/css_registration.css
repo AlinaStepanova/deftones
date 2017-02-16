@@ -1,0 +1,55 @@
+.selected { 
+    color: red;
+    font-size: 12px;
+}
+        
+.form {
+    margin-right:auto; 
+    margin-left:auto;
+    max-width: 400px;
+    min-height: 300px;
+    background: rgba(165, 165, 165, 0.78);
+    padding: 25px 15px 25px 10px;
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #94f9fd;
+    border:1px solid #626262;
+}
+        
+input[type="text"], input[type="password"] {
+    border: 1px solid #cccccc; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px; 
+    background: #ffffff; 
+    outline: none; 
+    height: 30px; 
+    width: 400px; 
+    font-size: 14px;   
+}
+        
+input[type="submit"] {
+    border: 1px solid rgba(49, 55, 56, 0.58); 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px; 
+    background: rgba(55, 62, 62, 0.94); 
+    outline: none; 
+    height: 40px; 
+    width: 200px;
+    color: #fff8f8;
+    text-align: center;
+    font-size: 16px;   
+}
+
+.select {
+    border: 1px solid #cccccc; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px; 
+    background: #ffffff; 
+    outline: none; 
+    height: 30px; 
+    width: 400px; 
+    font-size: 14px;  
+}

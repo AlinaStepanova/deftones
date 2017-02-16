@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    background-image: url("longbackground.jpg");
+    background-repeat:repeat-y;
+    background-size: cover;
+    font-family: arial; 
+    font-size: 80%; 
+    line-height: 1.2em; 
+    margin: 0;
+}
+.content {
+    height: 100%;
+    font-size: 15pt;
+    color: aliceblue;
+}
+
+.content td {
+    padding: 10px;
+}
+
+p{ line-height: 1em; }
+h1, h2, h3, h4, h5, h6{
+    color:aquamarine;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color:#66a8e2;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+.sidenav {
+    height: 100%; 
+    text-align:center;
+    font-size: 18pt;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    display: block;
+    text-shadow: 1px 1px 2px aquamarine, 0 0 1em #999da0;
+}
+.about {
+    height: 50%;
+    /*margin-top: 5%;*/
+}
+
+
